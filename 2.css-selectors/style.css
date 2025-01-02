@@ -1,0 +1,104 @@
+/* id   */
+
+/* #myid1{
+  color: red;
+}
+#myid2{
+  color: red;
+} */
+
+/* class  */
+
+/* .myclass{
+  color: red;
+} */
+
+/* tag  */
+
+/* p{
+  color: red;
+} */
+
+/* universal  */
+
+/* *{
+  background-color: aqua;
+} */
+
+
+/* group  */
+
+/* p, h2{
+  color: red;
+} */
+
+/* Pseudo-Class Selector: */
+/* h2:hover{
+  color: red;
+} */
+
+
+/* Pseudo-element Selector: */
+
+/* h2::after{
+  content: "hello";
+  color: red;
+  font-size: 50px;
+} */
+
+/* combinators  */
+
+/* decendent */
+
+/* .parent p{
+  color: red;
+} */
+
+
+/* .parent > p{
+  color: red;
+} */
+
+/* adjecent sibling  */
+
+/* .parent + p{
+  color: red;
+} */
+
+/* general sibling */
+/* 
+.parent ~ p{
+  color: red;
+} */
+
+/* Attribute  */
+
+/*exact match  */
+
+/* [title="hi sachin bye"]{
+  color: red;
+} */
+
+/* starts with  */
+/* [title^="hi"]{
+  color: red;
+} */
+
+/* ends with  */
+/* [title$="bye"]{
+  color: red;
+} */
+
+/* contains  */
+
+/* [title*="sachin"]{
+  color: red;
+} */
+
+
+
+
+
+*{
+  color: red;
+}
