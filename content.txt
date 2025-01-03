@@ -177,3 +177,135 @@ Example: [src$=".jpg"] { border: 1px solid #ccc; }
 Selects elements whose attribute values contain a specified string.
 
 Example: [alt*="cat"] { border: 2px solid orange; }
+
+
+4. CSS Specifcity
+   ==============
+
+When we apply more than one set of CSS rules to the same element, the browser will have to decide which specific set of css will be applied to the element. The rules the browser follows are collectively called Specificity.
+
+   Note:
+   ---- 
+   - When two or more selectors have equal specificity, the last(latest) one counts.
+   - Universal selectors have least specificity.
+
+
+   1- !important rule (overrides all other specificity)
+
+   2- Inline styles (highest specificity)
+
+   3- IDs (#my-id)
+
+   4- Combinator selectors
+
+   5- Classes and pseudo-classes and attribute selector (.my-class, :hover)
+
+   6- Element selectors and group selectors(h1, p)
+
+   7- Universal selectors (*)
+  
+   8- Default browser styles 
+
+  
+***pseudo class and pseudo element selectors are overide by id and inline and !important***
+
+
+When comparing the specificity of universal selectors and group selectors, group selectors can have a higher specificity if they include selectors with higher specificity values (e.g., IDs or classes). Universal selectors have low specificity by default.
+
+
+5. Text Properties 
+   ===============
+
+CSS (Cascading Style Sheets) provides a wide range of text properties that allows you to control the appearance and layout of text within HTML elements. A list of common text properties in CSS.
+
+
+1.color:
+  -----
+ 
+Sets the color of the text.
+Example: color: red;
+
+2.direction:
+  ---------
+
+Sets the text direction, such as ltr (left-to-right) or rtl (right-to-left).
+Example: direction: rtl;
+
+3.text-transform:
+  --------------
+
+Modifies the case of text, e.g., uppercase or lowercase or capitalize.
+Example: text-transform: uppercase;
+
+4.text-shadow:
+  -----------
+
+It gives shadow to text.
+ 
+text-shadow: x-axis y-axis blur color
+text-shadow: 10px 0px 10px red
+
+5.text-align:
+  ----------
+
+Aligns the text horizontally within its container.
+Example: text-align: center;
+
+6.text-decoration:
+  ---------------
+
+Controls decorations like underline, overline, and line-through.
+Example: text-decoration: underline;
+
+7.text-indent:
+   -----------
+
+Sets the indentation of the first line of text within an element.
+Example: text-indent: 20px;
+
+
+8.font-family:
+  -----------
+
+Specifies the font family for the text.
+Example: font-family: Arial, sans-serif;
+
+9.font-size:
+   ---------
+
+Sets the size of the text.
+Example: font-size: 16px;
+
+10.font-weight:
+   -----------
+
+Defines the thickness or boldness of the text.
+Example: font-weight: bold;
+
+11.font-style:
+   ----------
+
+Specifies the style of the text, such as italic.
+Example: font-style: italic;
+
+
+12.line-height:
+   -----------
+
+Sets the height of a line of text, controlling spacing between lines.
+Example: line-height: 1.5;
+
+
+13.letter-spacing:
+  --------------
+
+Adjusts the space between individual characters.
+Example: letter-spacing: 2px;
+
+14.word-spacing:
+  ------------
+
+Controls the spacing between words in a block of text.
+Example: word-spacing: 4px;
+
+These are some of the essential text properties in CSS. By using these properties, you can customize the appearance and layout of text on your web pages, making it an integral part of web design and typography.

@@ -1,0 +1,26 @@
+
+#myp{
+  color: blue;
+}
+
+/* combinator selector  */
+.parent p{
+  color: green;
+}
+
+/* attribute selector  */
+
+[title="para"]{
+  color: yellow;
+}
+
+/* element selector  */
+p{
+  color: aqua ;
+}
+
+/* universal selector  */
+*{
+  color: red;
+}
+
