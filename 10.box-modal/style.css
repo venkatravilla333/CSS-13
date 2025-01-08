@@ -1,0 +1,49 @@
+
+
+#one{
+box-sizing: content-box;
+background-color: red;
+ width:200px;
+ padding-left: 20px;
+ padding-right: 10px;
+ border-left: 10px solid #000;
+ border-right: 10px solid #000;
+ margin-left: 10px;
+ margin-right: 10px;
+ height: 200px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-top: 10px solid #000;
+ border-bottom: 10px solid #000;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+#two{
+box-sizing: border-box;
+background-color: red;
+ width: 200px;
+ padding-left: 20px;
+ padding-right: 10px;
+ border-left: 10px solid #000;
+ border-right: 10px solid #000;
+ margin-left: 10px;
+ margin-right: 10px;
+ height: 200px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-top: 10px solid #000;
+ border-bottom: 10px solid #000;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+/* #one{
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: aqua;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+} */
