@@ -1,0 +1,43 @@
+
+
+.container{
+  width: 500px;
+  height: 300px;
+  /* background-color: brown; */
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 80px 140px 80px;
+  gap: 10px
+}
+
+.child1{
+  background-color: aqua;
+  display: grid;
+  place-content: center;
+}
+.child2{
+  background-color: rgb(67, 200, 0);
+   display: grid;
+  place-content: center;
+}
+.child3{
+  background-color: rgb(77, 0, 200);
+   display: grid;
+  place-content: center;
+}
+.child4{
+  background-color: rgb(200, 0, 0);
+   display: grid;
+  place-content: center;
+}
+.child5{
+  background-color: rgb(200, 127, 0);
+   display: grid;
+  place-content: center;
+}
+.child6{
+  background-color: rgb(0, 200, 3);
+   display: grid;
+  place-content: center;
+}
