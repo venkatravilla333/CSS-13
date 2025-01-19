@@ -1,0 +1,33 @@
+
+
+#parent{
+  width: 600px;
+  /* height: 400px; */
+  background-color: aqua;
+  margin: 70px auto;
+}
+
+.ch1{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  float: right ;
+}
+.ch2{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(72, 255, 0);
+  float: left;
+}
+.ch3{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 153, 0);
+  float: right;
+}
+
+.clear-fix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
