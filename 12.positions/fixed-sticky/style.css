@@ -1,0 +1,50 @@
+
+*{
+  margin: 0px;
+}
+.parent{
+  width: 400px;
+  height: 500px;
+  background-color: black;
+  color: white;
+  margin: 30px auto;
+  padding: 10px;
+  
+}
+
+.image{
+  width: 100%;
+  height: 300px;
+}
+  .whatsapp{
+    text-align: center;
+    width: 120px;
+    background-color: rgb(51, 225, 51);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-radius:15px;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    color: white;
+
+  }
+
+  .newplayer{
+    width: 400px;
+    height: 70px;
+    background-color: orange;
+    text-align: center;
+    margin: 2px auto;
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 20px;
+  }
+
