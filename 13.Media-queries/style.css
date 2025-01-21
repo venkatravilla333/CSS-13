@@ -1,0 +1,25 @@
+
+@media print {
+  h1{
+    color: rgb(47, 255, 0);
+  }
+}
+
+@media screen and (min-width: 500px)  {
+  h1{
+    color: red;
+   background-color: black;
+   height: 100px;
+  }
+}
+@media screen and (max-width: 499px) {
+  h1{
+    color: rgb(0, 21, 255);
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100px;
+    background-color: yellow;
+  }
+}
