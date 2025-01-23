@@ -1,0 +1,24 @@
+
+
+.div{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  line-height: 150px;
+  margin: 150px auto;
+  font-size: 18px;
+  font-weight: bold;
+  transition-property: transform;
+  transition-duration: 5s;
+}
+
+div:hover{
+  /* transform: translate(100px, 100px); */
+  /* transform: scale(2, 2); */
+  /* transform: rotate(360deg); */
+  /* transform: skewx(180deg); */
+  background-color: red;
+}

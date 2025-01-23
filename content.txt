@@ -309,3 +309,117 @@ Controls the spacing between words in a block of text.
 Example: word-spacing: 4px;
 
 These are some of the essential text properties in CSS. By using these properties, you can customize the appearance and layout of text on your web pages, making it an integral part of web design and typography.
+
+16. CSS Animations
+    ==============
+
+Animation is a process of changing elements style in a given duration.
+
+we can apply multiple css styles to an element during given duration by using @keyframe.
+
+
+syntax
+------
+
+@keyframe animation-name{
+
+keyFrame-selector{
+
+}
+
+- keyFrame-selectors
+  ------------------
+
+  "from" and "to" and we can give % also.
+ 
+- You should configure the animation name and animation duration on an element.
+
+properties on an element
+------------------------
+1)animation-name: (compulsory)
+2)animation-duration:(compulsory) (total animation time)
+3)animation-delay: starts animation after some delay of time. (animation starts time)
+4)animation-iteration-count: how many times animation need. 
+
+5)animation-direction: normal|reverse|alternate|alternate-reverse
+6)animation-fill-mode: backwards|forwards|none (before & after animation styles)
+7)animation-play-state: paused | running
+8)animation-timing-function: linear|ease-in|ease-out|ease-in-out (speed of animation)
+
+=> ease:   Default value. The animation has a slow start, then fast, before it ends slowly.
+=> linear: Play an animation with the same speed from beginning to end.
+=> ease-in: The animation has a slow start.
+=> ease-out: The animation has a slow end.
+=> ease-in-out: The animation has both a slow start and a slow end.
+
+
+
+
+CSS Transform property
+======================
+
+Transition-property: transform
+transition-duration:5s
+transition-delay: 2s
+transition-timing-function:
+
+Using the Transform property we can rotate, skew, scale, or move an element.
+
+transform:
+---------
+         translate: It will move our element in x axis and y axis.
+         scale : It will re-size our element size in x and y axis.
+         rotate : It will rotate our element in x axis and y axis.
+         skew : It will skew an element in x axis and y axis.
+
+
+The transform property accepts a variety of transformation functions, which include:
+
+Translate (move):
+
+translateX(): Moves the element horizontally.
+translateY(): Moves the element vertically.
+translate(): Moves the element both horizontally and vertically.
+
+Scale (resize):
+
+scaleX(): Scales the element horizontally.
+scaleY(): Scales the element vertically.
+scale(): Scales the element in both dimensions.
+
+Rotate:
+
+rotate(): Rotates the element by a specified angle in degrees.
+
+Skew:
+
+skewX(): Skews the element along the X-axis.
+skewY(): Skews the element along the Y-axis.
+skew(): Skews the element along both axes.
+
+
+ex
+--
+/* Translate an element 50 pixels to the right and 20 pixels down */
+
+.transformed-element {
+  transform: translate(50px, 20px);
+}
+
+/* Scale an element to be twice its original size */
+
+.scaled-element {
+  transform: scale(2);
+}
+
+/* Rotate an element by 45 degrees */
+
+.rotated-element {
+  transform: rotate(45deg);
+}
+
+/* Skew an element along the X-axis */
+
+.skewed-element {
+  transform: skewX(30deg);
+}
